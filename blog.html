@@ -9,12 +9,16 @@
 <body>
         <div id="navbar"></div>
         <div id="blog"></div>
+        <div id="comment_list"></div>
+        <div id="comment"></div>
         <div id="footer"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- <script src="./jquery.js"></script> -->
         <script>
             $("#navbar").load("./src/layout/navbar.html");
             $("#blog").load("./src/components/blog/blog.html");
+            $("#comment_list").load("./src/components/comment_list/comment_list.html");
+            $("#comment").load("./src/components/comment/comment.html");
             $("#footer").load("./src/layout/footer.html");
         </script>    
 </body>
