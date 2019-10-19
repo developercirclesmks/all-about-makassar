@@ -1,0 +1,13 @@
+.main-background {
+    background: blue;
+}
+.main-color {
+    color: blue;
+}
+.white-color {
+    color: #fff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
