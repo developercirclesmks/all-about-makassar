@@ -1,8 +1,14 @@
 .main-background {
-    background: blue;
+    background: #00f2ff;
 }
 .main-color {
-    color: blue;
+    color: #00f2ff;
+}
+.secondary-background {
+    background: #3b5998;
+}
+.secondary-color {
+    color: #3b5998;
 }
 .white-color {
     color: #fff;
