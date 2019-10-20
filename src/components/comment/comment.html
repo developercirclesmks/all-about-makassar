@@ -1,3 +1,43 @@
-<div>
-        comment
+<style>
+* {
+        box-sizing: border-box;
+}
+h2{
+        width: 100%;
+        display: block;
+}
+.row{   
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        padding: 0 10px;
+}
+.row:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+.col{
+        width: 33.333333%;
+        padding: 10px;
+        height: 200px;
+        text-align: justify;
+}
+</style>
+<div class="row">
+        <h2 style="color: grey; margin-bottom: 10px; padding: 0 0 0 10px;">Definition</h2>
+        <div class="col">
+                <h3 style="color: goldenrod;">Definition 1</h3>
+                <p style="color: gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eos repudiandae maiores illum rem molestiae, saepe quaerat doloribus nam. Quidem rem sequi reprehenderit sit accusantium fugiat, vitae doloremque corrupti reiciendis!</p>
+        </div>
+        <div class="col">
+                <h3 style="color: goldenrod;">Definition 2</h3>
+                <p style="color: gray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor atque ea ratione dolorum quia fuga esse quas nulla in nisi? Ullam laborum similique, quaerat architecto magni sed nulla provident quisquam.</p>
+        </div>
+        <div class="col">
+                <h3 style="color: goldenrod;">Definition 3</h3>
+                <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa est natus, voluptates fugiat iure incidunt. Provident illum vero vitae placeat alias accusamus nam, animi cupiditate assumenda hic ex distinctio. Adipisci.</p>
+        </div>
 </div>
