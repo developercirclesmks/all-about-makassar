@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div.container{
+	margin: 2%;
+}
+div.columns{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+div.side{
+	margin-top: 50px;
+	text-align: right;
+	font-size: 18px;
+}
+div.side p{
+	font-weight: 500;
+	color: #0d2b53;
+	margin-bottom: 30px;
+}
+div.side h4{
+	color: #7d7d7d;
+	font-weight: 500;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 14px;
+}
+div.content{
+
+}
+div.content h1{
+	font-weight: bold;
+	color: #0d2b53;
+}
+div.content h3{
+	font-weight: 400;
+	font-size: 20px;
+	color: #7d7d7d;
+	margin-bottom: 30px;
+}
+div.content img{
+	height: 350px;
+	width: 800px;
+}
+.yel{
+	color: #ffd22a;
+}
+.icon{
+	color:#0d2b53;
+}
