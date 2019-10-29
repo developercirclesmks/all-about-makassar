@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #00204a ;
+	font-family: roboto;
+
+}
+div.container{
+	margin: 8% 9%;
+}
+
+/* Form */
+
+div.form{
+	width: 28%;
+	padding: 30px;
+	float: right;
+	background-color: white;
+	text-align: center;
+}
+form{
+	padding:0 15px;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: -18px;
+	color: #00204a;
+}
+h3{
+	font-size: 18px;
+	color: #8b9299;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+input[type=text],input[type=email]{
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-bottom: 18px;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+	width: 94%;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2d3436;
+}
+input[type=text]::placeholder,input[type=email]::placeholder{
+	color: #b0b0b0;
+}
+input[type=text]:focus,input[type=email]:focus{
+	outline: none;
+}
+button{
+	width: 100%;
+	padding:18px;
+	margin-top: 25px;
+	border: none;
+	background-color: #ffc900;
+	color: #00204a;
+	font-size: 16px;
+	font-weight: 600;
+}
+button:hover{
+	background-color: #ffb900;
+	cursor: pointer;
+}
+button:focus{
+	background-color: #ffa900;
+}
+
+/* Text on the left */
+
+div.regis{
+	width: 55%;
+	color: #f1f2f6;
+}
+div.regis-grid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 15px;
+}
+div.regis div.text{
+	margin-left: 20px;
+}
+div.regis h1{
+	font-size: 45px;
+	padding-top: 50px;
+}
+div.regis p{
+	font-size: 16px;
+}
+div.days, div.hours, div.mins,div.secs{
+	margin-top: 40%;
+	background-color: #2e4d6f;
+	color: #f1f2f6;
+	width:155px;
+	height: 120px;
+	border-radius: 5px;
+	border: 1px solid #7e91a6 ;
+}
+
+div.days p, div.hours p, div.mins p,div.secs p{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.number{
+	font-size: 200%;
+	font-weight: 900;
+}
