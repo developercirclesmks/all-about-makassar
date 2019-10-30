@@ -1,62 +1,99 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    html{
-        padding: 0;
-        font-family: font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    * {
+        box-sizing: border-box;
     }
-    .awesome-feature-container{
-    }
-    .awesome-feature-container-top{
-        text-align: center;
-        margin: 80px auto;
-    }
-    .awesome-feature-container-bottom{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .awesome-feature-bottom-content{
-        background-color: #fafafa;
-        max-width: 75%;
+    .container{
         margin: auto;
-        padding: 30px;
+        width: 80%;
+        text-align: center;
     }
-    .awesome-feature-bottom-content h3,h4{
-        margin: 5px 0px 5px 0px;
+    .awesome {
+        padding: 90px 0;
+        text-align: center;
     }
-    .awesome-feature-bottom-content i{
-        margin: 0px 0px 20px 0px;
+    .tiles {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
     }
-    .text-1{
-        color: rgb(19, 54, 97);
+    .tile {
+        width: 350px;
+        height: 220px;
+        margin: 0 15px;
+        padding: 40px 30px;
+        position: relative;
+        text-align: left;
+        background-color: #f9f9ff;
     }
-    .text-2{
-        color: rgb(135, 151, 177);
+
+    .tile-desctiption {
+        font-family: Arial;
+        font-size: 16px;
+        color: gray;
+        line-height: 26px;
     }
-    .awesome-feature-bottom-content:hover{
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        transition: box-shadow 0.3s ease-in-out;
+    h1 {
+        font-family: Arial;
+        font-size: 36px;
+        line-height: normal;
+        font-weight: bold;
+        color: #3b5998;
+    }
+    h2 {
+        font-family: Arial;
+        font-size: 24px;
+        line-height: 8px;
+        font-weight: bold;
+        color: #3b5998;
+    }
+    h4 {
+        font-family: Arial;
+        font-size: 14px;
+        line-height: normal;
+        font-style: italic;
+        color: #898989;
+    }
+    .tile:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .tile:hover .fa-graduation-cap {
+        color: gray!important;
+    }
+    .tile:hover .fa-book-open {
+        color: gray!important;
+    }
+    .tile:hover .fa-globe-asia {
+        color: gray!important;
     }
 </style>
-<div class="awesome-feature-container">
-    <div class="awesome-feature-container-top">
-        <h1 class="text-1" style="font-weight: bold;">Awesome Feature</h1>
-        <h4 class="text-2" style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ratione.</h4>
-    </div>
-    <div class="awesome-feature-container-bottom">
-        <div class="awesome-feature-bottom-content">
-            <i class="fa fa-graduation-cap text-1" style="font-size: 40px;"></i>
-            <h3 class="text-1">Lorem, ipsum.</h3>
-            <h4 class="text-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-        </div>
-        <div class="awesome-feature-bottom-content">
-            <i class="fa fa-book text-1" style="font-size: 40px;"></i>
-            <h3 class="text-1">Lorem, ipsum.</h3>
-            <h4 class="text-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
-        </div>
-        <div class="awesome-feature-bottom-content">
-            <i class="fa fa-globe text-1" style="font-size: 40px;"></i>
-            <h3 class="text-1">Lorem, ipsum.</h3>
-            <h4 class="text-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+<div class="container">
+    <div class="awesome">
+        <h1>Awesome Feature</h1>
+        <h4>Replenish man have thing gathering lights yielding shall you</h4>
+        <div class="tiles">
+            <div class="tile">
+                <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size: 40px; color: #3b5998;"></i>
+                <div class="tile-text">
+                    <h2>Scholarship Facility</h2>
+                    <span class="tile-desctiption">One make creepeth, man bearing theira firmament won't great heaven</span>
+                </div>
+            </div>
+            <div class="tile">
+                <i class="fas fa-book-open" aria-hidden="true" style="font-size: 40px; color: #3b5998;"></i>
+                <div class="tile-text">
+                    <h2>Sell Online Course</h2>
+                    <span class="tile-desctiption">One make creepeth, man bearing theira firmament won't great heaven</span>
+                </div>
+            </div>
+            <div class="tile">
+                <i class="fa fa-globe-asia" aria-hidden="true" style="font-size: 40px; color: #3b5998;"></i>
+                <div class="tile-text">
+                    <h2>Global Certification</h2>
+                    <span class="tile-desctiption">One make creepeth, man bearing theira firmament won't great heaven</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
