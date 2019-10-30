@@ -1,3 +1,88 @@
-<div>
-    blog_detail
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog Detail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    *{
+        margin : 0px;
+        padding : 0px;
+    }
+    body{
+        padding: 20px;
+    }
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .thumbnail{
+        position: relative;
+        height: 500px;
+        overflow: hidden;
+    }
+    .thumbnail-img{
+        position: absolute;
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .content .left {
+        float: left;
+        text-align: right;
+        line-height: 30px;
+        width: 25%;
+        max-width: 250px;
+        padding: 20px;
+    }
+    .about span{
+        display: block;
+    }
+    .content .right {
+        float: right;
+        width: 60%;
+        max-width: 750px;
+        padding: 20px;
+    }
+    .right p{
+        max-width: 750px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="thumbnail">
+            <img class="thumbnail-img" src="https://images.unsplash.com/photo-1572124622811-3ed57ba34831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80">
+        </div>
+        <div class="content">
+            <div class="left">
+                <strong>Food , Technology, Lifestyle</strong>
+                <p class="about">
+                    <span>Fikri <i class="fa fa-user-o"></i></span>
+                    <span>12 Dec, 2017 <i class="fa fa-calendar-o"></i></span>
+                    <span>1.2 M Views <i class="fa fa-eye"></i></span>
+                    <span>6 Comments <i class="fa fa-comments-o"></i></span>
+                </p>
+            </div>
+            <div class="right">
+                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p class="isi">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur quam corrupti odit repellendus assumenda earum nulla. Voluptates dolor dolores laudantium eligendi deserunt eaque architecto illo aliquam debitis maiores? Rerum?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit impedit suscipit, recusandae corporis unde laborum veritatis odio animi alias officiis autem corrupti nam, quibusdam est sunt dolor illum. Ab.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, illum! Obcaecati culpa aut, consequuntur delectus libero alias aliquid maiores ducimus, vel placeat rem perferendis nam sapiente ab quo vitae non!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias temporibus saepe ducimus, magni et officiis nihil totam doloribus in repudiandae voluptates beatae libero tenetur minima atque obcaecati numquam delectus.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
