@@ -1,3 +1,103 @@
-<div>
-        ini comment
+<style>
+* {
+  box-sizing: border-box;
+}
+h2{
+  width: 100%;
+  display: block;
+}
+.row{   
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+.col{
+  width: 33.333333%;
+  padding: 10px;
+  height: 200px;
+  text-align: justify;
+}
+input {
+  border: none;
+  height: 30px;
+  padding: 0 8px;
+}
+textarea {
+  border: none;
+  padding: 8px;
+}
+input, textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.comment-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background: #f0f9ff;
+}
+.comment-title {
+  width: 100%;
+  text-align: center;
+}
+.comment-form {
+  width: 80%;
+  margin: 0 auto;
+}
+.comment-footer_form {
+  margin-top: 20px;
+  width: 100%;
+}
+.comment-button {
+  height: 50px;
+  width: 180px;
+  font-weight: 900;
+  background-color: #fec901;
+  line-height: 20px;
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.comment-message {
+  resize: none;
+}
+.comment-identifier {
+  justify-content: space-between;
+}
+.comment-identifier > input {
+  width: calc(50% - 10px);
+}
+</style>
+<div class="comment-wrapper">
+  <div class="comment-title">
+    <h2>Leave a Reply</h2>
+  </div>
+  <form>
+    <div class="comment-form">
+      <div class="row comment-identifier">
+        <input type="text" name="name" placeholder="Enter Name"/>
+        <input type="email" name="email" placeholder="Enter Email Address"/>
+      </div>
+      <div class="row">
+        <input type="text" name="subject" placeholder="Subject"/>
+      </div>
+      <div class="row">
+        <textarea class="comment-message" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+      </div>
+    </div>
+    <div class="comment-footer_form">
+      <input type="submit" class="comment-button" value="POST COMMENT"/>
+    </div>
+  </form>
 </div>
